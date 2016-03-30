@@ -1,0 +1,36 @@
+body {
+	background: url(../images/bg2.jpg) no-repeat center center fixed; 
+  	background-size: cover;
+  	color: white;
+}
+
+.header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10;
+    overflow: hidden;
+    background-color: rgba(128,128,128, 0.5);
+}
+
+.header li {
+    float: left;
+}
+
+.header li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 1.3em;
+}
+
+.header li a:hover {
+    background-color: #111;
+}
+
+.container .welcome {
+	font-size: 250%;
+	width: 50%;
+}
+
