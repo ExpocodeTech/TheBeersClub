@@ -1,5 +1,5 @@
 body {
-	background: url(../images/bg2.jpg) no-repeat center center fixed; 
+	background: url(../images/bg2.jpg) no-repeat center center fixed;
   	background-size: cover;
   	color: white;
 }
@@ -30,7 +30,6 @@ body {
 }
 
 .container .welcome {
-	font-size: 250%;
-	width: 50%;
+    font-size: 200%;
+    width: 50%;
 }
-
