@@ -16,12 +16,28 @@
 		</ul>		
 	</div>
 	<div class="container">
-		<h2>Registro</h2>
+		<div id="login">
+			<div id="frmLogin">
+				<h2>Login</h2>
+	        	<input type="text" class="impField" name="username" value="" placeholder="Nombre de usuario o Email"><br>
+	        	<input type="password" class="impField" name="password" value="" placeholder="Contraseña"><br>
+	      		<button name="btnLogin" onclick="processLogin()">Iniciar Sesión</button>
+	      		<button name="btnNew" onclick="processNew()">Soy nuevo</button>
+	    	</div>
+	    	<div id="frmSignUp">
+				<h2>SignUp</h2>
+	        	<input type="text" class="impField" name="name" value="" placeholder="Nombre"><br>
+	        	<input type="text" class="impField" name="lastname" value="" placeholder="Apellido"><br>
+	        	<input type="email" class="impField" name="email" value="" placeholder="Email"><br>
+	        	<input type="password" class="impField" name="password" value="" placeholder="Contraseña"><br>
+	      		<button name="btnSignUp" onclick="processSignup()">SignUp</button>
+	    	</div>
+    	</div>
 	</div>
 	<div class="footer">
 		
 	</div>
 	
-	
+	<script src="./js/login.js"></script>
 </body>
 </html>
