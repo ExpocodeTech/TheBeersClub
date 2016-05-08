@@ -34,6 +34,16 @@ body {
     width: 50%;
 }
 
+
+.container div#loginMode .btnAccess {
+    width: 25%;
+    height: 100px;
+    margin-top: 80px;
+    margin-left: 10px;
+    float: left;
+
+}
+
 .container div#login{
     width: 50%;
     height: 50%;
@@ -48,8 +58,12 @@ body {
     margin: 5px;
 }
 
+.container #frmLogin {
+    display: none;
+}
+
 .container #frmLogin button {
-    width: 40%;
+    width: 30%;
     height: 30px;
     padding: 5px;
     margin: 5px;
@@ -61,9 +75,18 @@ body {
 }
 
 .container #frmSignUp button {
-    width: 40%;
+    width: 30%;
     height: 30px;
     padding: 5px;
     margin: 5px;
     border-radius: 5px;
+}
+
+.container #account {
+    display: none;
+}
+
+.container #account img {
+    width: 10%;
+    height: 10%;
 }

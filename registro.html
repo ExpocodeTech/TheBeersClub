@@ -16,23 +16,33 @@
 		</ul>		
 	</div>
 	<div class="container">
+		<div id="loginMode">
+			<button class="btnAccess" name="btnWOAccount" onclick="processForm(false)">Soy nuevo</button>
+			<button class="btnAccess" name="btnWAccount" onclick="processForm(true)">Ya tengo cuenta</button>
+		</div>
 		<div id="login">
 			<div id="frmLogin">
 				<h2>Login</h2>
 	        	<input type="text" class="impField" name="username" value="" placeholder="Nombre de usuario o Email"><br>
 	        	<input type="password" class="impField" name="password" value="" placeholder="Contraseña"><br>
+	        	<button name="btnBack" onclick="processBack()"> Regresar </button>
 	      		<button name="btnLogin" onclick="processLogin()">Iniciar Sesión</button>
-	      		<button name="btnNew" onclick="processNew()">Soy nuevo</button>
 	    	</div>
 	    	<div id="frmSignUp">
 				<h2>SignUp</h2>
-	        	<input type="text" class="impField" name="name" value="" placeholder="Nombre"><br>
-	        	<input type="text" class="impField" name="lastname" value="" placeholder="Apellido"><br>
-	        	<input type="email" class="impField" name="email" value="" placeholder="Email"><br>
-	        	<input type="password" class="impField" name="password" value="" placeholder="Contraseña"><br>
-	      		<button name="btnSignUp" onclick="processSignup()">SignUp</button>
+	        	<input type="text" class="impField" name="name" value="" placeholder="Nombre" required><br>
+	        	<input type="text" class="impField" name="lastname" value="" placeholder="Apellido" required><br>
+	        	<input type="email" class="impField" name="email" value="" placeholder="Email" required><br>
+	        	<input type="password" class="impField" name="password" value="" placeholder="Contraseña" required><br>
+	        	<button name="btnBack" onclick="processBack()"> Regresar </button>
+	      		<button name="btnSignUp" onclick="processSignup()">Registrar</button>
 	    	</div>
     	</div>
+    	<div id="account">
+    		<h1>Bienvenido</h1>
+    		<img src="http://0.gravatar.com/avatar/0e5c127bbddb3a0ba75921c81bc0bd61" alt="userImage">
+    	</div>
+
 	</div>
 	<div class="footer">
 		
