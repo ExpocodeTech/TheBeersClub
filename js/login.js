@@ -71,10 +71,11 @@ function processLogin(){
 
 function displayAccountData(){
 	var account = document.getElementById('account');
-	if (account.style.display == 'block') {
+	if (loginData.username == null || loginData.username == '') {
 		account.style.display = 'none'
 	} else {
 		account.style.display = 'block'
+		account.children[0].textContent = 'Bienvenido ' + loginData.username;
 	};
 }
 
